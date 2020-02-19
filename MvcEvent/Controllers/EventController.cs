@@ -26,7 +26,7 @@ namespace MvcEvent.Controllers
                AddEvent.eventLogo, AddEvent.coverPicture, AddEvent.finalEventType, AddEvent.draft, AddEvent.status, 1);
             if (strsuccess != string.Empty)
             {
-                result = new { Success = "true" };
+                result = new { Success = "tru" };
             }
             return Json(result);
         }
